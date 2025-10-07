@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SwitchCompat;
 import android.widget.CompoundButton;
 import android.widget.Toast;
+import com.sdsmdg.harjot.croller.R;
 
 public class MainActivity extends AppCompatActivity {
 

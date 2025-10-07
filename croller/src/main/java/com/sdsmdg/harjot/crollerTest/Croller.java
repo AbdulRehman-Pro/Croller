@@ -13,7 +13,6 @@ import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.sdsmdg.harjot.croller.R;
 import com.sdsmdg.harjot.crollerTest.utilities.Utils;
 
 public class Croller extends View {
@@ -359,7 +358,7 @@ public class Croller extends View {
             else
                 circlePaint.setColor(mainCircleDisabledColor);
             canvas.drawCircle(midx, midy, mainCircleRadius, circlePaint);
-            canvas.drawText(label, midx, midy + (float) (radius * 1.1)-textPaint.getFontMetrics().descent, textPaint);
+            canvas.drawText(label, midx, midy + (float) (radius * 1.1) - textPaint.getFontMetrics().descent, textPaint);
             canvas.drawLine(x1, y1, x2, y2, linePaint);
 
         } else {
@@ -421,7 +420,7 @@ public class Croller extends View {
             else
                 circlePaint.setColor(mainCircleDisabledColor);
             canvas.drawCircle(midx, midy, mainCircleRadius, circlePaint);
-            canvas.drawText(label, midx, midy + (float) (radius * 1.1)-textPaint.getFontMetrics().descent, textPaint);
+            canvas.drawText(label, midx, midy + (float) (radius * 1.1) - textPaint.getFontMetrics().descent, textPaint);
             canvas.drawLine(x1, y1, x2, y2, linePaint);
         }
     }
